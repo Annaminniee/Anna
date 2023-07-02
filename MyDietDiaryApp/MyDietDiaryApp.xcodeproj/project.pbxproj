@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231D234FA4FDFFF85208BF43 /* Pods_MyDietDiaryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923382F1040920CBEF40B23D /* Pods_MyDietDiaryApp.framework */; };
+		23ECFFF9E03B818367F9192C /* Pods_MyDietDiaryApp_MyDietDiaryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1E1A12BA4D7D456CBE1131 /* Pods_MyDietDiaryApp_MyDietDiaryAppUITests.framework */; };
+		58462B1A7EEA9FF279E065E7 /* Pods_MyDietDiaryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE9DF21130D88903E6D74BE /* Pods_MyDietDiaryAppTests.framework */; };
+		958CB2AF2A490A9B0028AE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2AE2A490A9B0028AE8E /* AppDelegate.swift */; };
+		958CB2B12A490A9B0028AE8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2B02A490A9B0028AE8E /* SceneDelegate.swift */; };
+		958CB2B62A490A9B0028AE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958CB2B42A490A9B0028AE8E /* Main.storyboard */; };
+		958CB2B82A490A9D0028AE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958CB2B72A490A9D0028AE8E /* Assets.xcassets */; };
+		958CB2BB2A490A9D0028AE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958CB2B92A490A9D0028AE8E /* LaunchScreen.storyboard */; };
+		958CB2C62A490A9D0028AE8E /* MyDietDiaryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2C52A490A9D0028AE8E /* MyDietDiaryAppTests.swift */; };
+		958CB2D02A490A9D0028AE8E /* MyDietDiaryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2CF2A490A9D0028AE8E /* MyDietDiaryAppUITests.swift */; };
+		958CB2D22A490A9D0028AE8E /* MyDietDiaryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2D12A490A9D0028AE8E /* MyDietDiaryAppUITestsLaunchTests.swift */; };
+		958CB2DF2A490B720028AE8E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2DE2A490B720028AE8E /* MainTabBarController.swift */; };
+		958CB2E12A490C3A0028AE8E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2E02A490C3A0028AE8E /* CalendarViewController.swift */; };
+		958CB2E32A490C5F0028AE8E /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2E22A490C5F0028AE8E /* GraphViewController.swift */; };
+		958CB2E52A4971DE0028AE8E /* EditorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958CB2E42A4971DE0028AE8E /* EditorViewController.storyboard */; };
+		958CB2E72A4972780028AE8E /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2E62A4972780028AE8E /* EditorViewController.swift */; };
+		958CB2E92A497FD70028AE8E /* WeightRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2E82A497FD70028AE8E /* WeightRecord.swift */; };
+		958CB2EB2A4BAE790028AE8E /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2EA2A4BAE790028AE8E /* Date+Extension.swift */; };
+		958CB2ED2A4C21D20028AE8E /* GraphDateTitleFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CB2EC2A4C21D20028AE8E /* GraphDateTitleFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		958CB2C22A490A9D0028AE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958CB2A32A490A9B0028AE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958CB2AA2A490A9B0028AE8E;
+			remoteInfo = MyDietDiaryApp;
+		};
+		958CB2CC2A490A9D0028AE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958CB2A32A490A9B0028AE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958CB2AA2A490A9B0028AE8E;
+			remoteInfo = MyDietDiaryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F9EA9D232DD1502391009D /* Pods-MyDietDiaryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDietDiaryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyDietDiaryAppTests/Pods-MyDietDiaryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53E5E1A57A2B36507334B324 /* Pods-MyDietDiaryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDietDiaryApp.release.xcconfig"; path = "Target Support Files/Pods-MyDietDiaryApp/Pods-MyDietDiaryApp.release.xcconfig"; sourceTree = "<group>"; };
+		5AE9DF21130D88903E6D74BE /* Pods_MyDietDiaryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDietDiaryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923382F1040920CBEF40B23D /* Pods_MyDietDiaryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDietDiaryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		958CB2AB2A490A9B0028AE8E /* MyDietDiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDietDiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		958CB2AE2A490A9B0028AE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		958CB2B02A490A9B0028AE8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		958CB2B52A490A9B0028AE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958CB2B72A490A9D0028AE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		958CB2BA2A490A9D0028AE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		958CB2BC2A490A9D0028AE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958CB2C12A490A9D0028AE8E /* MyDietDiaryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDietDiaryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958CB2C52A490A9D0028AE8E /* MyDietDiaryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDietDiaryAppTests.swift; sourceTree = "<group>"; };
+		958CB2CB2A490A9D0028AE8E /* MyDietDiaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDietDiaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958CB2CF2A490A9D0028AE8E /* MyDietDiaryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDietDiaryAppUITests.swift; sourceTree = "<group>"; };
+		958CB2D12A490A9D0028AE8E /* MyDietDiaryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDietDiaryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		958CB2DE2A490B720028AE8E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		958CB2E02A490C3A0028AE8E /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		958CB2E22A490C5F0028AE8E /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		958CB2E42A4971DE0028AE8E /* EditorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditorViewController.storyboard; sourceTree = "<group>"; };
+		958CB2E62A4972780028AE8E /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		958CB2E82A497FD70028AE8E /* WeightRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightRecord.swift; sourceTree = "<group>"; };
+		958CB2EA2A4BAE790028AE8E /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		958CB2EC2A4C21D20028AE8E /* GraphDateTitleFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDateTitleFormatter.swift; sourceTree = "<group>"; };
+		99D34052861DAEA2970F33AA /* Pods-MyDietDiaryApp-MyDietDiaryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDietDiaryApp-MyDietDiaryAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyDietDiaryApp-MyDietDiaryAppUITests/Pods-MyDietDiaryApp-MyDietDiaryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A80752E28B98EA8BC8B1EDF9 /* Pods-MyDietDiaryApp-MyDietDiaryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDietDiaryApp-MyDietDiaryAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MyDietDiaryApp-MyDietDiaryAppUITests/Pods-MyDietDiaryApp-MyDietDiaryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC1E1A12BA4D7D456CBE1131 /* Pods_MyDietDiaryApp_MyDietDiaryAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDietDiaryApp_MyDietDiaryAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5896F4A8F6F09392630FD0 /* Pods-MyDietDiaryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDietDiaryAppTests.release.xcconfig"; path = "Target Support Files/Pods-MyDietDiaryAppTests/Pods-MyDietDiaryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E54E94D65D6068E0747BCC9A /* Pods-MyDietDiaryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDietDiaryApp.debug.xcconfig"; path = "Target Support Files/Pods-MyDietDiaryApp/Pods-MyDietDiaryApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958CB2A82A490A9B0028AE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231D234FA4FDFFF85208BF43 /* Pods_MyDietDiaryApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CB2BE2A490A9D0028AE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58462B1A7EEA9FF279E065E7 /* Pods_MyDietDiaryAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CB2C82A490A9D0028AE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ECFFF9E03B818367F9192C /* Pods_MyDietDiaryApp_MyDietDiaryAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958CB2A22A490A9B0028AE8E = {
+			isa = PBXGroup;
+			children = (
+				958CB2AD2A490A9B0028AE8E /* MyDietDiaryApp */,
+				958CB2C42A490A9D0028AE8E /* MyDietDiaryAppTests */,
+				958CB2CE2A490A9D0028AE8E /* MyDietDiaryAppUITests */,
+				958CB2AC2A490A9B0028AE8E /* Products */,
+				B652F4B0E5C7EF5EC98D37AC /* Pods */,
+				F30DF373540E5841C8216B7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		958CB2AC2A490A9B0028AE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2AB2A490A9B0028AE8E /* MyDietDiaryApp.app */,
+				958CB2C12A490A9D0028AE8E /* MyDietDiaryAppTests.xctest */,
+				958CB2CB2A490A9D0028AE8E /* MyDietDiaryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958CB2AD2A490A9B0028AE8E /* MyDietDiaryApp */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2F22A4E61E70028AE8E /* Extension */,
+				958CB2F12A4E61C10028AE8E /* Delegate */,
+				958CB2F02A4E5FCA0028AE8E /* Model */,
+				958CB2EF2A4E5E0F0028AE8E /* Controller */,
+				958CB2EE2A4E5DC50028AE8E /* View */,
+				958CB2B72A490A9D0028AE8E /* Assets.xcassets */,
+				958CB2BC2A490A9D0028AE8E /* Info.plist */,
+			);
+			path = MyDietDiaryApp;
+			sourceTree = "<group>";
+		};
+		958CB2C42A490A9D0028AE8E /* MyDietDiaryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2C52A490A9D0028AE8E /* MyDietDiaryAppTests.swift */,
+			);
+			path = MyDietDiaryAppTests;
+			sourceTree = "<group>";
+		};
+		958CB2CE2A490A9D0028AE8E /* MyDietDiaryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2CF2A490A9D0028AE8E /* MyDietDiaryAppUITests.swift */,
+				958CB2D12A490A9D0028AE8E /* MyDietDiaryAppUITestsLaunchTests.swift */,
+			);
+			path = MyDietDiaryAppUITests;
+			sourceTree = "<group>";
+		};
+		958CB2EE2A4E5DC50028AE8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2B42A490A9B0028AE8E /* Main.storyboard */,
+				958CB2B92A490A9D0028AE8E /* LaunchScreen.storyboard */,
+				958CB2E42A4971DE0028AE8E /* EditorViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		958CB2EF2A4E5E0F0028AE8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2DE2A490B720028AE8E /* MainTabBarController.swift */,
+				958CB2E02A490C3A0028AE8E /* CalendarViewController.swift */,
+				958CB2E22A490C5F0028AE8E /* GraphViewController.swift */,
+				958CB2E62A4972780028AE8E /* EditorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		958CB2F02A4E5FCA0028AE8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2E82A497FD70028AE8E /* WeightRecord.swift */,
+				958CB2EC2A4C21D20028AE8E /* GraphDateTitleFormatter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		958CB2F12A4E61C10028AE8E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2AE2A490A9B0028AE8E /* AppDelegate.swift */,
+				958CB2B02A490A9B0028AE8E /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		958CB2F22A4E61E70028AE8E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				958CB2EA2A4BAE790028AE8E /* Date+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B652F4B0E5C7EF5EC98D37AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E54E94D65D6068E0747BCC9A /* Pods-MyDietDiaryApp.debug.xcconfig */,
+				53E5E1A57A2B36507334B324 /* Pods-MyDietDiaryApp.release.xcconfig */,
+				99D34052861DAEA2970F33AA /* Pods-MyDietDiaryApp-MyDietDiaryAppUITests.debug.xcconfig */,
+				A80752E28B98EA8BC8B1EDF9 /* Pods-MyDietDiaryApp-MyDietDiaryAppUITests.release.xcconfig */,
+				46F9EA9D232DD1502391009D /* Pods-MyDietDiaryAppTests.debug.xcconfig */,
+				CE5896F4A8F6F09392630FD0 /* Pods-MyDietDiaryAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F30DF373540E5841C8216B7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923382F1040920CBEF40B23D /* Pods_MyDietDiaryApp.framework */,
+				AC1E1A12BA4D7D456CBE1131 /* Pods_MyDietDiaryApp_MyDietDiaryAppUITests.framework */,
+				5AE9DF21130D88903E6D74BE /* Pods_MyDietDiaryAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958CB2AA2A490A9B0028AE8E /* MyDietDiaryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958CB2D52A490A9D0028AE8E /* Build configuration list for PBXNativeTarget "MyDietDiaryApp" */;
+			buildPhases = (
+				C888DB0377CB3E0B8E604B2A /* [CP] Check Pods Manifest.lock */,
+				958CB2A72A490A9B0028AE8E /* Sources */,
+				958CB2A82A490A9B0028AE8E /* Frameworks */,
+				958CB2A92A490A9B0028AE8E /* Resources */,
+				1C5145A897EF41EB5A4825B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDietDiaryApp;
+			productName = MyDietDiaryApp;
+			productReference = 958CB2AB2A490A9B0028AE8E /* MyDietDiaryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		958CB2C02A490A9D0028AE8E /* MyDietDiaryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958CB2D82A490A9D0028AE8E /* Build configuration list for PBXNativeTarget "MyDietDiaryAppTests" */;
+			buildPhases = (
+				68A859D2B8F9BB41DB7A6C37 /* [CP] Check Pods Manifest.lock */,
+				958CB2BD2A490A9D0028AE8E /* Sources */,
+				958CB2BE2A490A9D0028AE8E /* Frameworks */,
+				958CB2BF2A490A9D0028AE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958CB2C32A490A9D0028AE8E /* PBXTargetDependency */,
+			);
+			name = MyDietDiaryAppTests;
+			productName = MyDietDiaryAppTests;
+			productReference = 958CB2C12A490A9D0028AE8E /* MyDietDiaryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		958CB2CA2A490A9D0028AE8E /* MyDietDiaryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958CB2DB2A490A9D0028AE8E /* Build configuration list for PBXNativeTarget "MyDietDiaryAppUITests" */;
+			buildPhases = (
+				66E63BD1B26E48D55851FE4D /* [CP] Check Pods Manifest.lock */,
+				958CB2C72A490A9D0028AE8E /* Sources */,
+				958CB2C82A490A9D0028AE8E /* Frameworks */,
+				958CB2C92A490A9D0028AE8E /* Resources */,
+				24A61E322EE8A03B2EB619F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958CB2CD2A490A9D0028AE8E /* PBXTargetDependency */,
+			);
+			name = MyDietDiaryAppUITests;
+			productName = MyDietDiaryAppUITests;
+			productReference = 958CB2CB2A490A9D0028AE8E /* MyDietDiaryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		958CB2A32A490A9B0028AE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					958CB2AA2A490A9B0028AE8E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					958CB2C02A490A9D0028AE8E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 958CB2AA2A490A9B0028AE8E;
+					};
+					958CB2CA2A490A9D0028AE8E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 958CB2AA2A490A9B0028AE8E;
+					};
+				};
+			};
+			buildConfigurationList = 958CB2A62A490A9B0028AE8E /* Build configuration list for PBXProject "MyDietDiaryApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 958CB2A22A490A9B0028AE8E;
+			productRefGroup = 958CB2AC2A490A9B0028AE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958CB2AA2A490A9B0028AE8E /* MyDietDiaryApp */,
+				958CB2C02A490A9D0028AE8E /* MyDietDiaryAppTests */,
+				958CB2CA2A490A9D0028AE8E /* MyDietDiaryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958CB2A92A490A9B0028AE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CB2E52A4971DE0028AE8E /* EditorViewController.storyboard in Resources */,
+				958CB2BB2A490A9D0028AE8E /* LaunchScreen.storyboard in Resources */,
+				958CB2B82A490A9D0028AE8E /* Assets.xcassets in Resources */,
+				958CB2B62A490A9B0028AE8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CB2BF2A490A9D0028AE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CB2C92A490A9D0028AE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5145A897EF41EB5A4825B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDietDiaryApp/Pods-MyDietDiaryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDietDiaryApp/Pods-MyDietDiaryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDietDiaryApp/Pods-MyDietDiaryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24A61E322EE8A03B2EB619F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDietDiaryApp-MyDietDiaryAppUITests/Pods-MyDietDiaryApp-MyDietDiaryAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDietDiaryApp-MyDietDiaryAppUITests/Pods-MyDietDiaryApp-MyDietDiaryAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDietDiaryApp-MyDietDiaryAppUITests/Pods-MyDietDiaryApp-MyDietDiaryAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E63BD1B26E48D55851FE4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDietDiaryApp-MyDietDiaryAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A859D2B8F9BB41DB7A6C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDietDiaryAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C888DB0377CB3E0B8E604B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDietDiaryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958CB2A72A490A9B0028AE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CB2E12A490C3A0028AE8E /* CalendarViewController.swift in Sources */,
+				958CB2AF2A490A9B0028AE8E /* AppDelegate.swift in Sources */,
+				958CB2E32A490C5F0028AE8E /* GraphViewController.swift in Sources */,
+				958CB2E92A497FD70028AE8E /* WeightRecord.swift in Sources */,
+				958CB2DF2A490B720028AE8E /* MainTabBarController.swift in Sources */,
+				958CB2ED2A4C21D20028AE8E /* GraphDateTitleFormatter.swift in Sources */,
+				958CB2B12A490A9B0028AE8E /* SceneDelegate.swift in Sources */,
+				958CB2E72A4972780028AE8E /* EditorViewController.swift in Sources */,
+				958CB2EB2A4BAE790028AE8E /* Date+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CB2BD2A490A9D0028AE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CB2C62A490A9D0028AE8E /* MyDietDiaryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958CB2C72A490A9D0028AE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958CB2D22A490A9D0028AE8E /* MyDietDiaryAppUITestsLaunchTests.swift in Sources */,
+				958CB2D02A490A9D0028AE8E /* MyDietDiaryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		958CB2C32A490A9D0028AE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958CB2AA2A490A9B0028AE8E /* MyDietDiaryApp */;
+			targetProxy = 958CB2C22A490A9D0028AE8E /* PBXContainerItemProxy */;
+		};
+		958CB2CD2A490A9D0028AE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958CB2AA2A490A9B0028AE8E /* MyDietDiaryApp */;
+			targetProxy = 958CB2CC2A490A9D0028AE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		958CB2B42A490A9B0028AE8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958CB2B52A490A9B0028AE8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		958CB2B92A490A9D0028AE8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958CB2BA2A490A9D0028AE8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		958CB2D32A490A9D0028AE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		958CB2D42A490A9D0028AE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958CB2D62A490A9D0028AE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54E94D65D6068E0747BCC9A /* Pods-MyDietDiaryApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57PT3R2QQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyDietDiaryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikuchihara.MyDietDiaryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		958CB2D72A490A9D0028AE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E5E1A57A2B36507334B324 /* Pods-MyDietDiaryApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57PT3R2QQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyDietDiaryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikuchihara.MyDietDiaryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		958CB2D92A490A9D0028AE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F9EA9D232DD1502391009D /* Pods-MyDietDiaryAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57PT3R2QQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikuchihara.MyDietDiaryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDietDiaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDietDiaryApp";
+			};
+			name = Debug;
+		};
+		958CB2DA2A490A9D0028AE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5896F4A8F6F09392630FD0 /* Pods-MyDietDiaryAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57PT3R2QQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikuchihara.MyDietDiaryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDietDiaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyDietDiaryApp";
+			};
+			name = Release;
+		};
+		958CB2DC2A490A9D0028AE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D34052861DAEA2970F33AA /* Pods-MyDietDiaryApp-MyDietDiaryAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57PT3R2QQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikuchihara.MyDietDiaryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyDietDiaryApp;
+			};
+			name = Debug;
+		};
+		958CB2DD2A490A9D0028AE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80752E28B98EA8BC8B1EDF9 /* Pods-MyDietDiaryApp-MyDietDiaryAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57PT3R2QQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikuchihara.MyDietDiaryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyDietDiaryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958CB2A62A490A9B0028AE8E /* Build configuration list for PBXProject "MyDietDiaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CB2D32A490A9D0028AE8E /* Debug */,
+				958CB2D42A490A9D0028AE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958CB2D52A490A9D0028AE8E /* Build configuration list for PBXNativeTarget "MyDietDiaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CB2D62A490A9D0028AE8E /* Debug */,
+				958CB2D72A490A9D0028AE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958CB2D82A490A9D0028AE8E /* Build configuration list for PBXNativeTarget "MyDietDiaryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CB2D92A490A9D0028AE8E /* Debug */,
+				958CB2DA2A490A9D0028AE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958CB2DB2A490A9D0028AE8E /* Build configuration list for PBXNativeTarget "MyDietDiaryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958CB2DC2A490A9D0028AE8E /* Debug */,
+				958CB2DD2A490A9D0028AE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 958CB2A32A490A9B0028AE8E /* Project object */;
+}
